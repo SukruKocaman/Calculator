@@ -19,5 +19,16 @@ namespace CalculatorTest
 
             Assert.AreEqual(8, sum);
         }
+
+        [TestMethod]
+        public void Add_TwoIntegerAgain_ReturnSum()
+        {
+            int sum;
+            CalculatorDemo.Calculator calculator = new CalculatorDemo.Calculator();
+
+            sum = calculator.Add(3, 5);
+
+            Assert.AreEqual(8, sum);
+        }
     }
 }
