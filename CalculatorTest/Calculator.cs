@@ -9,6 +9,7 @@ namespace CalculatorTest
     public class CalculatorTest
     {
         [TestMethod]
+        [Owner("Sukru")]
         public void Add_TwoInteger_ReturnSum()
         {
             int sum;
