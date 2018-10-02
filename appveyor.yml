@@ -1,0 +1,8 @@
+version: 1.0.{build}
+nuget:
+  project_feed: true
+  disable_publish_on_pr: true
+build:
+  publish_nuget: true
+  verbosity: minimal
+image: Visual Studio 2017
