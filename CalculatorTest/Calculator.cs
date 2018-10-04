@@ -28,7 +28,7 @@ namespace CalculatorTest
 
             sum = calculator.Add(3, 6);
 
-            Assert.AreEqual(10, sum);
+            Assert.AreEqual(9, sum);
         }
     }
 }
